@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+
+.dice {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: #D3D3D3;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0;
+}
+
+#number {
+    color: black;
+    text-shadow: 5px 5px gray;
+    font-size: 250px;
+    font-family: Montserrat, sans-serif;
+    display: inline;
+    text-align: center;
+    padding-left: 90px;
+
+  
+
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    display: block;
+    margin-left: 50px;
+    font-size: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+      
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px gray;
+}
